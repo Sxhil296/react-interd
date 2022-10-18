@@ -63,10 +63,12 @@ const Footer = () => {
                 <Link to='/contact'><li className='mobile'>(+91 78787878787)</li></Link>
             </ul>
         </div>
+        
     </div>
+    
    </div>
+   <p className='copyright-text'> Copyright &copy; 2022 | Devopskey</p>
     </div>
-    <p className='copyright-text'> Copyright &copy; 2022 | Devopskey</p>
  </div>
   )
 }

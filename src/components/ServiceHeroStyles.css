@@ -1,0 +1,41 @@
+/* .service-hero{
+    margin-bottom: 5rem;
+} */
+.service-hero-text-bg{
+    box-sizing: border-box;
+    width: 24%;
+    height: 31vh;
+    background-color: #fdf3eb;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -10;
+    margin-top: 7.5rem;
+  }
+
+.service-hero-text{
+    position: absolute;
+    max-width: 600px;
+    margin-left: 17rem;
+    margin-top: -17rem;
+}
+.service-hero-text>h1{
+    font-size: 4em;
+    font-weight: bold;
+    color: #232f55;
+    font-family: "Heebo", sans-serif;
+    z-index: -1;
+}
+
+.service-hero-img-holder {
+    max-width: 950px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7.5rem 0rem 0rem 0;
+    border: none;
+    background: linear-gradient(to bottom, #ff8a7a 0%, #ffc99e 100%);
+  }
+
+  .service-hero-img-holder img {
+    width: 100%;
+  }

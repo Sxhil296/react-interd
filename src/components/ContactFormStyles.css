@@ -1,0 +1,17 @@
+
+
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 9rem;
+        margin-left: 9rem;
+    }
+
+
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
