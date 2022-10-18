@@ -1,11 +1,18 @@
 import React from 'react'
+import AboutHero from '../components/AboutHero'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Testimonials from '../components/Testimonials'
+import WeDesign from '../components/WeDesign'
 
 const About = () => {
   return (
     <div>
         <Navbar />
-        <h1>About</h1>
+        <AboutHero />
+        <WeDesign />
+        <Testimonials />
+        <Footer />
     </div>
   )
 }

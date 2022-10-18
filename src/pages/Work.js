@@ -1,11 +1,18 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Testimonials from '../components/Testimonials'
+import WorkMain from '../components/WorkMain'
+import WorkHero from '../components/WorkHero'
 
 const Work = () => {
   return (
     <div>
         <Navbar />
-        <h1>Work</h1>
+        <WorkHero />
+        <WorkMain />
+        <Testimonials />
+        <Footer />
     </div>
   )
 }

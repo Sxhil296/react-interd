@@ -1,11 +1,16 @@
 import React from 'react'
+import ContactFooter from '../components/ContactFooter'
+import ContactForm from '../components/ContactForm'
+import ContactHero from '../components/ContactHero'
 import Navbar from '../components/Navbar'
 
 const Contact = () => {
   return (
     <div>
         <Navbar />
-        <h1>Contact</h1>
+        <ContactHero />
+        <ContactForm />
+        <ContactFooter />
     </div>
   )
 }

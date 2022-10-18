@@ -27,19 +27,19 @@ const Navbar = () => {
         </Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu' }>
             <li>
-                <Link to='/'>Home</Link>
+                <Link className='hover-underline-animation' to='/'>Home</Link>
             </li>
             <li>
-                <Link to='/services'>Services</Link>
+                <Link className='hover-underline-animation' to='/services'>Services</Link>
             </li>
             <li>
-                <Link to='/work'>Work</Link>
+                <Link className='hover-underline-animation' to='/work'>Work</Link>
             </li>
             <li>
-                <Link to='/about'>About</Link>
+                <Link className='hover-underline-animation' to='/about'>About</Link>
             </li>
             <li>
-                <Link to='/contact'>Contact</Link>
+                <Link className='hover-underline-animation' to='/contact'>Contact</Link>
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>

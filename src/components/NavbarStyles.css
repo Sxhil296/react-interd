@@ -39,6 +39,31 @@
 
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #000;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -7px;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 .hamburger{
     display: none;
     margin-left: 13rem;
@@ -53,6 +78,10 @@
     padding: .3rem 1.2rem;
     height: 3rem;
     text-align: center;
+}
+.number-btn:hover{
+    background-color: #fff;
+    color: #fa7f6f;
 }
 
 @media  screen and (max-width:1240px) {

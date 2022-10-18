@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import HomeHero from '../components/HomeHero'
 import Navbar from '../components/Navbar'
 import Testimonials from '../components/Testimonials'
@@ -15,6 +16,7 @@ const Home = () => {
         <WeDesign />
         <Testimonials />
         <Work />
+        <Footer />
     </div>
   )
 }
