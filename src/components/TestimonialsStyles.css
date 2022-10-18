@@ -1,0 +1,28 @@
+.testimonials{
+    margin: 7% 15%;
+    margin-bottom: 4%;
+    text-align: center;
+    background: rgba(247, 190, 144, 0.1);
+    color: #232f55;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10rem;
+  }
+ 
+
+  .test-text{
+    padding: 9% 15%;
+  }
+  
+  .quote{
+    margin-bottom: 5rem;
+    width: 90px;
+  }
+
+  #test-prev{
+    margin-left: -100px;
+    background-color: #232f55;
+  }
+  #test-next{
+    margin-right: -100px;
+    background-color: #232f55;
+  }
