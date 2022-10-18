@@ -7,13 +7,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    z-index: 10;
+    z-index: 99;
+    top: 0;
 }
 
 .header-bg{
     background: linear-gradient(to left,#ff8a7a 0%,#ffc99e 100%);
     transition: .5s;
-    position: fixed;
 }
 
 .logo{
@@ -22,7 +22,7 @@
 .nav-menu{
     display: flex;
     margin: 0 auto;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .nav-menu li {
@@ -30,8 +30,8 @@
 }
 
 .nav-menu a {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     color: #232f55;
     display: inline-block;
     margin: 20px;
@@ -45,8 +45,8 @@
 }
 .number-btn{
     margin-right: 5rem;
-    /* color: white; */
-    /* border: 1px solid white; */
+    color: white;
+    border: 1px solid white;
     border-radius: 0%;
     max-width: 300px;
     font-weight: 500;

@@ -1,0 +1,38 @@
+.whatWeDo{
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 14rem;
+   padding-top: 4%;
+   text-align: center;
+}
+
+.work-heading{
+  color: #232f55;
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+.work-para{
+  color: #232f55;
+  margin-bottom: 35px;
+  font-size: 1.2rem;
+}
+
+.card{
+  border: none;
+  margin: 10px;
+  text-align: left;
+}
+
+.card-img{
+  border-radius: 0%;
+}
+
+.card-title{
+  text-decoration: underline;
+  font-size: 1.5em;
+  color: black;
+}
+.card-title:hover{
+  color: #ffc99e;
+}
