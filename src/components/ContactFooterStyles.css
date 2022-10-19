@@ -3,7 +3,7 @@
     width: 100%;
     height: 55vh;
     color: #fff;
-    margin-top: 20rem;
+    margin-top: 15rem;
   }
   .box-text-contact{
     margin-bottom: 2.3rem;
@@ -38,11 +38,12 @@
     margin: 0 22rem;
 }
 
- .mobile-contact{
+ .mobile-number{
     color: #ff8a7a;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
 }
+
 li{
     color: gray;
     margin: .5rem;
@@ -73,7 +74,7 @@ li:hover{
 }
 .rightbox-contact{
     float:left; 
-    width:16%;
+    width:20%;
     height:280px;
     margin: 4rem 3rem;
   

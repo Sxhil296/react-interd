@@ -39,21 +39,21 @@ const ContactForm = () => {
 </div>
 <div className="col-lg-3 offset-lg-1">
 <div className="media contact-info">
-<span className="contact-info__icon">< AiOutlineHome size={40}/></span>
+<span className="contact-info__icon">< AiOutlineHome size={30}/></span>
 <div className="media-body">
 <h3>New Delhi, India.</h3>
 <p>Rosemead, CA 91770</p>
 </div>
 </div>
 <div class="media contact-info">
-<span class="contact-info__icon"><AiOutlineTablet size={40}/></span>
+<span class="contact-info__icon"><AiOutlineTablet size={30}/></span>
 <div class="media-body">
 <h3>+91 7878787878</h3>
 <p>Mon to Fri 9am to 6pm</p>
 </div>
 </div>
 <div class="media contact-info">
-<span class="contact-info__icon"><AiOutlineMail size={40}/></span>
+<span class="contact-info__icon"><AiOutlineMail size={30}/></span>
 <div class="media-body">
 <h3>interd@gmail.com</h3>
 <p>Send us your query anytime!</p>

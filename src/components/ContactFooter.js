@@ -28,20 +28,20 @@ const ContactFooter = () => {
         <div className="middlebox-contact">
             <h2 className='box-text-contact'>Our solutions</h2>
            <ul>
-            <Link to='/'><li>Lorem, ipsum.</li></Link>
-            <Link to='/'><li>Lorem, ipsum.</li></Link>
-            <Link to='/'><li>Lorem, ipsum.</li></Link>
-            <Link to='/'><li>Lorem, ipsum.</li></Link>
-            <Link to='/'><li>Lorem, ipsum.</li></Link>
+            <Link to='/'><li>Design & creatives</li></Link>
+            <Link to='/'><li>Telecommunication</li></Link>
+            <Link to='/'><li>Restaurant</li></Link>
+            <Link to='/'><li>Programing</li></Link>
+            <Link to='/'><li>Architecture</li></Link>
            </ul>
         </div>
         <div className="thirdbox-contact">
             <h2 className='box-text-contact'>Company</h2>
             <ul>
                 <Link to='/about'><li>About</li></Link>
-                <Link to='/'><li>Lorem, ipsum.</li></Link>
-                <Link to='/'><li>Lorem, ipsum.</li></Link>
-                <Link to='/'><li>Lorem, ipsum.</li></Link>
+                <Link to='/'><li>Review</li></Link>
+                <Link to='/'><li>Insights</li></Link>
+                <Link to='/'><li>Carrier</li></Link>
                 <Link to='/'><li>Lorem, ipsum.</li></Link>
                </ul>
         </div>
@@ -50,7 +50,7 @@ const ContactFooter = () => {
             <ul>
                 <Link to='/contact'><li>interd@gmail.com</li></Link>
                 <Link to='/contact'><li>New Delhi, India</li></Link>
-                <Link to='/contact'><li className='mobile'>(+91 78787878787)</li></Link>
+                <Link to='/contact'><li className='mobile-number'>(+91 78787878787)</li></Link>
             </ul>
         </div>
         
