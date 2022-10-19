@@ -1,7 +1,7 @@
-/* .service-hero{
-    margin-bottom: 5rem;
-} */
-.service-hero-text-bg{
+.page-hero{
+    margin-bottom: 16rem;
+}
+.page-hero-text-bg{
     box-sizing: border-box;
     width: 24%;
     height: 31vh;
@@ -10,23 +10,25 @@
     flex-wrap: wrap;
     z-index: -10;
     margin-top: 7.5rem;
+    margin-bottom: -7rem;
   }
 
-.service-hero-text{
+.page-hero-text{
     position: absolute;
     max-width: 600px;
     margin-left: 17rem;
-    margin-top: -17rem;
+    margin-top: -9rem;
+    margin-bottom: 0;
 }
-.service-hero-text>h1{
+.page-hero-text>h1{
     font-size: 4em;
-    font-weight: bold;
+    font-weight: 600;
     color: #232f55;
     font-family: "Heebo", sans-serif;
     z-index: -1;
 }
 
-.service-hero-img-holder {
+.page-hero-img-holder {
     max-width: 950px;
     position: absolute;
     top: 0;
@@ -36,6 +38,6 @@
     background: linear-gradient(to bottom, #ff8a7a 0%, #ffc99e 100%);
   }
 
-  .service-hero-img-holder img {
+  .page-hero-img-holder img {
     width: 100%;
   }

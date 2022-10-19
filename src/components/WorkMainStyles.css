@@ -1,0 +1,13 @@
+.main-work-text{
+    color: #232f55;
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 30px;
+}
+
+.main-work-text h2{
+    font-size: 2.8rem;
+}
+.main-work-text p{
+    font-size: 1.2rem;
+}

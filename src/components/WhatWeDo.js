@@ -8,7 +8,7 @@ import './WhatWeDoStyles.css'
 
 const WhatWeDo = () => {
   return (
-    <div  className='container whatWeDo'>
+    <div  className='container-fluid whatWeDo'>
         <div>
             <h1 className='work-heading'>What We Do?</h1>
             <p className='work-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi debitis recusandae quia veritatis molestiae consequuntur.</p>

@@ -1,14 +1,15 @@
 import React from 'react'
 import ContactFooter from '../components/ContactFooter'
 import ContactForm from '../components/ContactForm'
-import ContactHero from '../components/ContactHero'
 import Navbar from '../components/Navbar'
+import PagesHero from '../components/PagesHero'
+import ContactHeroImg from '../assets/contactHero.webp'
 
 const Contact = () => {
   return (
     <div>
         <Navbar />
-        <ContactHero />
+        <PagesHero heading='Contact Us' text='lorem lorem lorem lorem lorem lorem lorem lorem' img={ContactHeroImg}/>
         <ContactForm />
         <ContactFooter />
     </div>

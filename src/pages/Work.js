@@ -3,13 +3,14 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Testimonials from '../components/Testimonials'
 import WorkMain from '../components/WorkMain'
-import WorkHero from '../components/WorkHero'
+import PagesHero from '../components/PagesHero'
+import workHeroImg from '../assets/workHero.webp'
 
 const Work = () => {
   return (
     <div>
         <Navbar />
-        <WorkHero />
+        <PagesHero heading='Work' text='lorem lorem ipsum ipsum lorem lorem ipsum' img={workHeroImg}/>
         <WorkMain />
         <Testimonials />
         <Footer />
