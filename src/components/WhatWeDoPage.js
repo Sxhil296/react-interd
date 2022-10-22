@@ -4,7 +4,7 @@ import './WhatWeDoPageStyles.css'
 export class WhatWeDoPage extends Component {
   render() {
     return (
-      <div className='whatwedopage-hero'>
+      <div className='whatWeDoPage-hero'>
         <div className="whatWeDoText">
             <h1>{this.props.title}</h1>
             <p>{this.props.para}</p>

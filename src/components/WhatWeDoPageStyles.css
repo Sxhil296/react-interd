@@ -1,18 +1,8 @@
-.whatwedopage-hero{
+.whatWeDoPage-hero{
     margin-top: 25rem;
     margin-bottom: 20rem;
 }
-/* .page-hero-text-bg{
-    box-sizing: border-box;
-    width: 24%;
-    height: 31vh;
-    background-color: #fdf3eb;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -10;
-    margin-top: 7.5rem;
-    margin-bottom: -7rem;
-  } */
+
 
 .whatWeDoText{
     position: absolute;
@@ -38,7 +28,6 @@
 }
 
 .whatWeDoImage{
-    /* max-width: 950px; */
     position: absolute;
     top: 0;
     right: 0;
