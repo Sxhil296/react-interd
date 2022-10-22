@@ -18,7 +18,7 @@ const WhatWeDo = () => {
     <div className="card h-100">
       <img src={work1} className="card-img-top card-img" alt="..."/>
       <div className="card-body">
-        <Link to='/services'><h5 className="card-title">Starts the automated process.</h5></Link>
+        <Link to='/whatwedopage1'><h5 className="card-title">Starts the automated process.</h5></Link>
         <p className="card-text">The automated process starts as soon as your clothes go into the machine.</p>
       </div>
     </div>
@@ -27,7 +27,7 @@ const WhatWeDo = () => {
     <div className="card h-100">
       <img src={work2} className="card-img-top card-img" alt="..." />
       <div className="card-body">
-        <Link to='/services'><h5 className="card-title">Starts the automated process.</h5></Link>
+        <Link to='/whatwedopage1'><h5 className="card-title">Starts the automated process.</h5></Link>
         <p className="card-text">The automated process starts as soon as your clothes go into the machine.</p>
       </div>
     </div>
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
     <div className="card h-100">
       <img src={work3} className="card-img-top card-img" alt="..." />
       <div className="card-body">
-        <Link to='/services'><h5 className="card-title">Starts the automated process.</h5></Link>
+        <Link to='/whatwedopage1'><h5 className="card-title">Starts the automated process.</h5></Link>
         <p className="card-text">The automated process starts as soon as your clothes go into the machine.</p>
       </div>
     </div>

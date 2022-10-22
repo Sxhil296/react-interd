@@ -31,12 +31,11 @@ form input, textarea {
     background: transparent;
     margin-left: 9.8rem;
     background: #fff;
-    color: #ffc99e !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Heebo",sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     border: 0;
     border: 1px solid #ffc99e;
     text-align: center;
